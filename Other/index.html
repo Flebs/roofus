@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="css.css" rel="stylesheet">
+    <title>Sleep Hub | Home</title>
+    <meta content="Sleep Hub" property="og:title">
+    <meta content="The new best Roblox Hub!" property="og:description">
+    <meta content="https://sleep-hub.github.io" property="og:url">
+    <meta content="https://cdn.discordapp.com/attachments/816017482929406002/842075857132847165/secret.png" property="og:image">
+    <meta content="#ff0000" data-react-helmet="true" name="theme-color">
+  </head>
+  <body>
+    <style>
+    :root {
+      --first-font-family: 'Poppins';
+      --second-font-family: 'Montserrat';
+      --ws-primary-font-family: var(--first-font-family), var(--font-sans-serif-fallback);
+      --ws-secondary-font-family: var(--second-font-family), var(--font-sans-serif-fallback);
+      --ws-heading-1-font-family: var(--ws-secondary-font-family);
+      --ws-heading-1-font-size: 56;
+      --ws-heading-1-line-height: 1.286em;
+      --ws-heading-1-font-weight: 700;
+      --ws-heading-1-font-weight-emulation: none;
+      --ws-heading-1-font-style: normal;
+      --ws-heading-1-text-transform: uppercase;
+      --ws-heading-1-letter-spacing: normal;
+      --ws-heading-1-text-decoration: none;
+      --ws-heading-2-font-family: var(--ws-secondary-font-family);
+      --ws-heading-2-font-size: 40;
+      --ws-heading-2-line-height: 1.4em;
+      --ws-heading-2-font-weight: 700;
+      --ws-heading-2-font-weight-emulation: none;
+      --ws-heading-2-font-style: normal;
+      --ws-heading-2-text-transform: uppercase;
+      --ws-heading-2-letter-spacing: normal;
+      --ws-heading-2-text-decoration: none;
+      --ws-heading-3-font-family: var(--ws-primary-font-family);
+      --ws-heading-3-font-size: 28;
+      --ws-heading-3-line-height: 1.571em;
+      --ws-heading-3-font-weight: 300;
+      --ws-heading-3-font-weight-emulation: none;
+      --ws-heading-3-font-style: normal;
+      --ws-heading-3-text-transform: none;
+      --ws-heading-3-letter-spacing: normal;
+      --ws-heading-3-text-decoration: none;
+      --ws-heading-4-font-family: var(--ws-secondary-font-family);
+      --ws-heading-4-font-size: 22;
+      --ws-heading-4-line-height: 1.636em;
+      --ws-heading-4-font-weight: 600;
+      --ws-heading-4-font-weight-emulation: none;
+      --ws-heading-4-font-style: normal;
+      --ws-heading-4-text-transform: none;
+      --ws-heading-4-letter-spacing: normal;
+      --ws-heading-4-text-decoration: none;
+      --ws-heading-5-font-family: var(--ws-primary-font-family);
+      --ws-heading-5-font-size: 18;
+      --ws-heading-5-line-height: 1.778em;
+      --ws-heading-5-font-weight: 400;
+      --ws-heading-5-font-weight-emulation: none;
+      --ws-heading-5-font-style: normal;
+      --ws-heading-5-text-transform: none;
+      --ws-heading-5-letter-spacing: normal;
+      --ws-heading-5-text-decoration: none;
+      --ws-heading-6-font-family: var(--ws-secondary-font-family);
+      --ws-heading-6-font-size: 16;
+      --ws-heading-6-line-height: 1.75em;
+      --ws-heading-6-font-weight: 600;
+      --ws-heading-6-font-weight-emulation: none;
+      --ws-heading-6-font-style: normal;
+      --ws-heading-6-text-transform: uppercase;
+      --ws-heading-6-letter-spacing: 0.125em;
+      --ws-heading-6-text-decoration: none;
+      --ws-base-font-family: var(--ws-primary-font-family);
+      --ws-base-font-size: 16px;
+      --ws-base-line-height: 1.75em;
+      --ws-base-font-weight: 400;
+      --ws-base-font-weight-emulation: none;
+      --ws-base-font-style: normal;
+      --ws-base-text-transform: none;
+      --ws-base-letter-spacing: normal;
+      --ws-base-text-decoration: none;
+      --ws-blockquote-font-family: var(--ws-primary-font-family);
+      --ws-blockquote-font-size: var(--ws-base-font-size);
+      --ws-blockquote-line-height: var(--ws-base-line-height);
+      --ws-blockquote-font-weight: var(--ws-base-font-weight);
+      --ws-blockquote-font-weight-emulation: var(--ws-base-font-weight-emulation);
+      --ws-blockquote-font-style: var(--ws-base-font-style);
+      --ws-blockquote-text-transform: var(--ws-base-text-transform);
+      --ws-blockquote-letter-spacing: var(--ws-base-letter-spacing);
+      --ws-blockquote-text-decoration: var(--ws-base-text-decoration);
+      --ws-base-font-weight-bold: 700;
+      --ws-base-font-weight-bold-emulation: none;
+      --ws-heading-1-font-weight-bold: 900;
+      --ws-heading-1-font-weight-bold-emulation: none;
+      --ws-heading-2-font-weight-bold: 900;
+      --ws-heading-2-font-weight-bold-emulation: none;
+      --ws-heading-3-font-weight-bold: 700;
+      --ws-heading-3-font-weight-bold-emulation: none;
+      --ws-heading-4-font-weight-bold: 700;
+      --ws-heading-4-font-weight-bold-emulation: none;
+      --ws-heading-5-font-weight-bold: 700;
+      --ws-heading-5-font-weight-bold-emulation: none;
+      --ws-heading-6-font-weight-bold: 700;
+      --ws-heading-6-font-weight-bold-emulation: none;
+      --ws-label-font-weight-bold: 700;
+      --ws-label-font-weight-bold-emulation: none;
+      --ws-button-font-family: var(--ws-secondary-font-family);
+      --ws-button-font-size: var(--ws-base-font-size);
+      --ws-button-line-height: var(--ws-base-line-height);
+      --ws-button-font-weight: 600;
+      --ws-button-font-weight-emulation: var(--ws-base-font-weight-emulation);
+      --ws-button-font-style: var(--ws-base-font-style);
+      --ws-button-text-transform: var(--ws-base-text-transform);
+      --ws-button-letter-spacing: var(--ws-base-letter-spacing);
+      --ws-featured-link-font-family: var(--ws-secondary-font-family);
+      --ws-featured-link-font-size: var(--ws-base-font-size);
+      --ws-featured-link-line-height: var(--ws-base-line-height);
+      --ws-featured-link-font-weight: 600;
+      --ws-featured-link-font-weight-emulation: var(--ws-base-font-weight-emulation);
+      --ws-featured-link-font-style: var(--ws-base-font-style);
+      --ws-featured-link-text-transform: var(--ws-base-text-transform);
+      --ws-featured-link-letter-spacing: var(--ws-base-letter-spacing);
+      --ws-featured-link-text-decoration: var(--ws-base-text-decoration);
+      --ws-site-name-font-family: var(--ws-secondary-font-family);
+      --ws-site-name-font-size: 22px;
+      --ws-site-name-line-height: 1.636em;
+      --ws-site-name-font-weight: 700;
+      --ws-site-name-font-weight-emulation: var(--ws-base-font-weight-emulation);
+      --ws-site-name-font-style: var(--ws-base-font-style);
+      --ws-site-name-text-transform: uppercase;
+      --ws-site-name-letter-spacing: var(--ws-base-letter-spacing);
+      --ws-site-name-text-decoration: var(--ws-base-text-decoration);
+      --ws-m-header-phone-font-family: var(--ws-primary-font-family);
+      --ws-m-header-phone-font-size: 24px;
+      --ws-m-header-phone-line-height: 1.67em;
+      --ws-m-header-phone-font-weight: var(--ws-base-font-weight);
+      --ws-m-header-phone-font-weight-emulation: var(--ws-base-font-weight-emulation);
+      --ws-m-header-phone-font-style: var(--ws-base-font-style);
+      --ws-m-header-phone-text-transform: var(--ws-base-text-transform);
+      --ws-m-header-phone-letter-spacing: var(--ws-base-letter-spacing);
+      --ws-m-header-phone-text-decoration: var(--ws-base-text-decoration);
+      --ws-nav-menu-items-font-family: var(--ws-base-font-family);
+      --ws-nav-menu-items-font-size: var(--ws-base-font-size);
+      --ws-nav-menu-items-line-height: var(--ws-base-line-height);
+      --ws-nav-menu-items-font-weight: 600;
+      --ws-nav-menu-items-font-weight-emulation: var(--ws-base-font-weight-emulation);
+      --ws-nav-menu-items-font-style: var(--ws-base-font-style);
+      --ws-nav-menu-items-text-transform: uppercase;
+      --ws-nav-menu-items-letter-spacing: var(--ws-base-letter-spacing);
+      --ws-label-font-family: var(--ws-base-font-family);
+      --ws-label-font-size: var(--ws-base-font-size);
+      --ws-label-line-height: var(--ws-base-line-height);
+      --ws-label-font-weight: var(--ws-base-font-weight);
+      --ws-label-font-weight-emulation: var(--ws-base-font-weight-emulation);
+      --ws-label-font-style: var(--ws-base-font-style);
+      --ws-label-text-transform: var(--ws-base-text-transform);
+      --ws-label-letter-spacing: var(--ws-base-letter-spacing);
+      --ws-input-font-family: var(--ws-base-font-family);
+      --ws-input-font-size: var(--ws-base-font-size);
+      --ws-input-line-height: var(--ws-base-line-height);
+      --ws-input-font-weight: var(--ws-base-font-weight);
+      --ws-input-font-weight-emulation: var(--ws-base-font-weight-emulation);
+      --ws-input-font-style: var(--ws-base-font-style);
+      --ws-input-text-transform: var(--ws-base-text-transform);
+      --ws-input-letter-spacing: var(--ws-base-letter-spacing);
+      --ws-heading-6-decor-font-family: var(--ws-secondary-font-family);
+      --ws-heading-6-decor-font-size: 100;
+      --ws-heading-6-decor-line-height: 1.071em;
+      --ws-heading-6-decor-font-weight: 700;
+      --ws-heading-6-decor-font-weight-emulation: none;
+      --ws-heading-6-decor-font-style: normal;
+      --ws-heading-6-decor-text-transform: uppercase;
+      --ws-heading-6-decor-letter-spacing: normal;
+      --ws-heading-6-decor-text-decoration: none;
+      --ws-heading-6-decor-font-weight-bold: 900;
+      --ws-heading-6-decor-font-weight-bold-emulation: none
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    </style>
+    <script>
+    WebFontConfig = {
+        google: {
+          families: ['Poppins:300,300i,400,400i,600,600i,700,700i', 'Montserrat:600,600i,700,700i,900,900i&display=swap']
+        },
+        classes: !1,
+        events: !1
+      },
+      function(e) {
+        var a = e.createElement('script'),
+          s = e.head;
+        a.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js', a.async = !0, s.appendChild(a, s)
+      }(document);
+    </script>
+    <div class="page-container">
+      <ws-block src="header.html" surfaces="ws-dark-0">
+        <header class="ws-surface ws-dark-0" data-surface="0" >
+          <ws-header data-ws-block-overlay-section-target="overlay-section" overlay-section="" stick-up="">
+            <ws-global class="site-name-wrapper" slot="site-name" src="sitename.html"><span>Sleep Hub</span></ws-global>
+            <ws-button slot="secondary-button"> <a href="https://discord.gg/EKWz4zCcfY" rel="nofollow" target="_blank">Join Our Discord!</a> </ws-button>
+            <ws-button slot="primary-button"> <a href="https://discord.gg/EKWz4zCcfY" rel="nofollow" target="_blank">Script</a> </ws-button>
+          </ws-header>
+        </header>
+      </ws-block>
+      <ws-block content-alignment="center" data-ws-variation-id="page-title-with-plain-text-v-2" id="ws-block-page-title-with-plain-text-IHel0zS2" src="pagetitlewithplaintext.html" surfaces="ws-dark-0" white-space-bottom="xxl" white-space-top="xxl">
+        <section class="ws-section ws-surface ws-dark-0" data-surface="0" data-ws-slots="block-title">
+          <div class="ws-container ws-block-content">
+            <div class="ws-m-block-title-570">
+              <ws-text slot="block-title">
+                <h1>Sleep Hub</h1>
+                <h5>Roblox Exploiting, Reimagined. </h5> </ws-text>
+            </div>
+          </div>
+        </section>
+      </ws-block>
+      <ws-block content-alignment="top" content-direction="normal" data-ws-variation-id="about-splitscreen-with-media-default" id="ws-block-about-splitscreen-with-media-4q9H3wrC" src="splitscreenwithmedia.html" surfaces="ws-light-0" white-space-bottom="xxl" white-space-top="xxl">
+        <section class="ws-section ws-surface ws-light-0" data-surface="0" data-ws-hidden-children="block_media primary_button secondary_button" data-ws-slots="block-title">
+          <div class="ws-m-split-layout">
+            <div class="ws-m-split-layout__media"> </div>
+            <div class="ws-m-split-layout__content">
+              <div class="ws-m-block-title-570">
+                <ws-text slot="block-title">
+                  <h2>Sleep Hub is one of the best roblox hubs out there.</h2>
+                  <p>With numerous games, features, and updates, we are always working our absolute hardest to unpatch, improve, and redesign Roblox Exploiting.</p>
+                </ws-text>
+              </div>
+              <div class="ws-m-button-group-wrapper">
+                <div class="ws-m-button-group"> </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </ws-block>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
