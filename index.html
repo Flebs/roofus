@@ -1,12 +1,20 @@
 <html>
     <head>
-        <title> Home - Flebby.com</title>
+        <title> Home - Flebby.xyz</title>
         <link rel="shortcut icon" href="https://andrewlock.net/content/images/2016/10/icon.png" type="image/x-icon" />
     </head>
     <body>
 <div class="banner">
 <div class="navbar">
+    <a href="https://youtube.com/c/RexTheDev">
     <img src="logo.png" class="logo">
+</a>
+
+<style>
+    .navbar a:hover {
+        transform: translate(5px);
+    }
+</style>
     <ul>
          <a href="index.html">Home</a>
          <a href="scripts.html">Scripts</a>
@@ -14,11 +22,6 @@
          <a href="discordbot.html">Bots</a>
          <a href="support.html">Support</a>
     </ul>
-</div>
-
-<div class="information">
-<h1>why use this website?</h1>
-<p>i dont fucking know, get scripts and source code! enjoy</p>
 </div>
 
 <!--<iframe width="600" height="340" src="https://www.youtube.com/embed?listType=user_uploads&list=UCZAoXRgpsPEPvfq1vRmN0wQ" frameborder="0" allowfullscreen></iframe> 
@@ -61,6 +64,7 @@
             font-weight: 100;
             line-height: 25px;
         }
+
         .buttons .button .b1  {
             width: 200px;
             padding: 15px 0;
@@ -68,7 +72,7 @@
             margin: 20px 10px;
             border-radius: 25px;
             font-weight: bold;
-            border: 2px solid #009688;
+            border: 2px solid blue;
             background: transparent;
             color: #fff;
             cursor: pointer;
@@ -87,7 +91,8 @@
         .banner {
             width: 100%;
             height: 100vh;
-            background-image: url("background.png");
+            /* background-image: url("background.png"); */
+            background-color: black;
             background-size: contain;
             background-position: center;
         }
@@ -120,7 +125,7 @@
             content: '';
             height: 3px;
             width: 0;
-            background: #009688;
+            background: red;
             position: absolute;
             left: 0;
             bottom: 0;
