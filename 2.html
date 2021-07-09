@@ -58,6 +58,21 @@
                         <span>Buy Flebby <a href="https://flebbylife.xyz/premium">Premium</a></span>
                     </div>
                     <div class="subforum-info subforum-column">
+                        <h1>Page Views</h1><h1 id="count">0</h1>
+                        <script>
+                            const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/strongman/views/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+
+                        </script>
                         <b><a href="#id">post</a> by <a href="#">RexTheDev</a></b>
                         
                         <style>
