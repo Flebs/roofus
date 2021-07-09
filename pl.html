@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="logo.png">
 </head>
 <body>
     <div class="navbar">
@@ -15,7 +14,7 @@
         <wbr>
         <a href="https://flebbylife.xyz/posts">Posts</a>
         <wbr>
-        <a href="logo.html">Login</a>
+        <a href="login.html">Login</a>
     </div>
     </div>
 
@@ -58,6 +57,21 @@
                         <span>Buy Flebby <a href="https://flebbylife.xyz/premium">Premium</a></span>
                     </div>
                     <div class="subforum-info subforum-column">
+                        <h1>Page Views</h1><h1 id="count">0</h1>
+                        <script>
+                            const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	fetch('https://api.countapi.xyz/update/prisonlife/views/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+
+                        </script>
                         <b><a href="#id">post</a> by <a href="#">RexTheDev</a></b>
                         
                         <style>
