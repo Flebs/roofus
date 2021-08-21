@@ -22,7 +22,11 @@
 <div id="text-color-options"><style title="text-color-options">:root { --custom-color-1613514873200: hsla(0, 0%, 100%, 0.45); --custom-color-1611580408340: hsl(0, 0%, 100%); }#ws-block-pricing-with-icons-j7jJg3v1 .ws-dark-1 { --text-color-1611580408340-1611580408340:var(--custom-color-1611580408340); --text-color-1611580437630-1611580408340:var(--custom-color-1611580408340); --text-color-1613514844549-1611580408340:var(--custom-color-1611580408340); --text-color-1613514873200-1613514873200:var(--custom-color-1613514873200); }#ws-block-cover-with-centered-features-bg-image-1n5s6jro .ws-dark-0 { --text-color-1614010363924-1611580408340:var(--custom-color-1611580408340); }</style></div><script data-website-animation="" id="ws-website-animation-script-header-code">// content in this file will be inserted directly to templates markup
 // without compiling so be careful when you need changing
 // something in this file or when you using import
-</div></ws-global>
+function () {
+  var DATA_ANIMATION_ATTRIBUTE = 'data-init-website-animation';
+  var body = document.querySelector('body');
+  body.setAttribute(DATA_ANIMATION_ATTRIBUTE, '');
+})();</script></div></ws-global>
 <div class="page-container">
 <ws-block id="ws-block-header-xTfVVgLE" src="/ws/block-templates/header/index.html" surfaces="ws-dark-1"><header class="ws-surface ws-dark-1" data-surface="0" data-ws-hidden-children="business-phone business-social-profiles primary-button secondary-button" data-ws-slots="header" data-ws-observed-slots="header">
 <ws-global slot="header" src="/ws/globals/global-header/index.html"><ws-header data-ws-block-overlay-section-target="overlay-section" stick-up="" layout="3" ws-defined="true" is-stuck="">
