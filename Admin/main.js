@@ -19,7 +19,7 @@ function getInfo() {
         if(username == admin[i].username && password == admin[i].password) {
 window.location.href = "https://flebbylife.xyz/Admin";
 
-window.location.replace("http:/flebbylife.xyz/Redirect");
+window.location.replace("http:/flebbylife.xyz/Admin/home.html");
         }
     }
 }
