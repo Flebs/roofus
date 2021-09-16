@@ -1,0 +1,95 @@
+.navbar {
+    text-align: right;
+}
+.navbar li {
+color: transparent;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.feature {
+    height: fit-content;
+    text-transform: capitalize;
+    margin: 20px;
+    background: var(--secondary);
+    border-radius: 5px 5px 0 0;
+    border-bottom: 5px solid var(--first);
+    padding: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: var(--text);
+    box-shadow: -4px 4px 10px rgb(0 0 0 / 12%);
+    transform: translate(none);
+    transition: transform .2s ease,box-shadow .2s ease;
+}
+:root {
+    --main: #2c2c2c;
+    --secondary: #272727;
+    --first: #313b99;
+    --text: white;
+    --user: 'RexTheDevYT';
+}
+
+body {
+    background: #2c2c2c;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+:after :before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.feature div div::before {
+    content: '';
+    width: 2px;
+    height: calc(100% + 10px);
+    position: absolute;
+    background: var(--first);
+    left: 0;
+    top: -11px;
+    opacity: .8;
+    transform: translateX(250%);
+}
+
+.feature p {
+    margin: 4px;
+    opacity: .8;
+}
+* {
+    font-family: "Roboto",sans-serif;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.feature {
+    height: fit-content;
+    text-transform: capitalize;
+    margin: 20px;
+    background: var(--secondary);
+    border-radius: 5px 5px 0 0;
+    border-bottom: 5px solid var(--first);
+    padding: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: var(--text);
+    box-shadow: -4px 4px 10px rgb(0 0 0 / 12%);
+    transform: translate(none);
+    transition: transform .2s ease,box-shadow .2s ease;
+}
+
+span {
+    padding: 5px;
+}
+
+.feature a {
+    font-size: calc(30px + .3vw);
+    font-weight: 700;
+    color: var(--first);
+    transition: filter .1s ease;
+}
