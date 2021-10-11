@@ -1,0 +1,4 @@
+$2 https://paypal.me/RexTheDev
+Discord: discord.gg/v2Zm6u3rc9
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Flebs/Roblox/main/paid.lua"))()

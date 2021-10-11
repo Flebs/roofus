@@ -1,0 +1,5 @@
+--Get the key here: https://discord.gg/jeCVTDVgH7
+
+
+_G.Input = "Key Here" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/axel709/borderscript/main/TheGrandCrossing",true))()

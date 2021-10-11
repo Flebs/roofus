@@ -1,0 +1,4 @@
+--Get the key here: discord.gg/v2Zm6u3rc9
+
+_G.Input = ""
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Flebs/Roblox/main/Obfuscate.lua"))()
