@@ -1,25 +1,32 @@
 <p id="CurrentCode" class="MIPCEOEKRN">
+  <script src="https://linkvertise.net/cdn/linkvertise.js"></script>
+  <script>
+    linkvertise(129843, {
+      whitelist: ["flebbylife.xyz/getcode#"],
+      blacklist: ["flebbylife.xyz"],
+    });
+  </script>
   <script type="text/javascript">
-    document.getElementById("Code").value = getSavedValue("Refresh For Code!");    // set the value to this input
+    document.getElementById("Code").value = getSavedValue("Refresh For Code!"); // set the value to this input
     /* Here you can add more inputs to set value. if it's saved */
 
     //Save the value function - save it to localStorage as (ID, VALUE)
-    function saveValue(e){
-        var id = e.id;  // get the sender's id to save it . 
-        var val = e.value; // get the value. 
-        localStorage.setItem(id, val);// Every time user writing something, the localStorage's value will override . 
+    function saveValue(e) {
+      var id = e.id; // get the sender's id to save it .
+      var val = e.value; // get the value.
+      localStorage.setItem(id, val); // Every time user writing something, the localStorage's value will override .
     }
 
-    //get the saved value function - return the value of "v" from localStorage. 
-    function getSavedValue  (v){
-        if (!localStorage.getItem(v)) {
-            return "";// You can change this to your defualt value. 
-        }
-        return localStorage.getItem(v);
+    //get the saved value function - return the value of "v" from localStorage.
+    function getSavedValue(v) {
+      if (!localStorage.getItem(v)) {
+        return ""; // You can change this to your defualt value.
+      }
+      return localStorage.getItem(v);
     }
-</script>
+  </script>
 
-<script>
+  <script>
     function CopyText() {
       var text = document.getElementById("Code");
       text.select();
@@ -28,77 +35,74 @@
       text.Value = document.getElementById("CurrentCode").className;
     }
 
-    function RefreshBtn(){
-        var text = document.getElementById("Code")
-        text.value = document.getElementById("CurrentCode").className
-      }
+    function RefreshBtn() {
+      var text = document.getElementById("Code");
+      text.value = document.getElementById("CurrentCode").className;
+    }
 
-      function NotWorking(){
-        var text = document.getElementById("Code")
-        text.Value = document.getElementById("CurrentCode").className
-      }
+    function NotWorking() {
+      var text = document.getElementById("Code");
+      text.Value = document.getElementById("CurrentCode").className;
+    }
   </script>
 
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <title>VexySxy</title>
-        <meta http-equiv="Refresh" content="https://discord.gg"/>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap"
-          rel="stylesheet"
-        />
-        <link rel="stylesheet" href="style3.css" />
-      </head>
-      <body>
-        <script src="https://linkvertise.net/cdn/linkvertise.js"></script>
-        <script>
-          function link(){
-          linkvertise(129843, { whitelist: ["getcode.html"], blacklist: [] });
-        }
-          </script>
-        <div class="tabs">
-          <ul>
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">Discord</a>
-          </ul>
-          <center>
-            <h2 style="cursor: default">24 Hour Key</h2>
-            <input
-              style="
-                color: white;
-                text-align: center;
-                border-style: solid;
-                border: 2.5px solid white transparent;
-                width: 270;
-                font-size: 20px;
-                height: 30px;
-                background: transparent;
-              "
-              class="mt-1 form-control form-control-lg"
-              type="text"
-              id="Code"
-              placeholder=""
-              value="Refresh For Code!"
-              disabled=""
-            />
-          </center>
-          <center>
-            <a style="cursor: pointer" onclick="CopyText()">Copy</a>
-            <br><a id="Refresh" style="cursor: pointer" onclick="RefreshBtn()">Refresh</a>
-            <br><br><a onclick="NotWorking()">Not Working?</a>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>VexySxy</title>
+      <meta http-equiv="Refresh" content="https://discord.gg" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="style3.css" />
+    </head>
+    <body>
+      <div class="tabs">
+        <ul>
+          <a href="#">Home</a>
+          <a href="#">Products</a>
+          <a href="#">Discord</a>
+        </ul>
+        <center>
+          <h2 style="cursor: default">24 Hour Key</h2>
+          <input
+            style="
+              color: white;
+              text-align: center;
+              border-style: solid;
+              border: 2.5px solid white transparent;
+              width: 270;
+              font-size: 20px;
+              height: 30px;
+              background: transparent;
+            "
+            class="mt-1 form-control form-control-lg"
+            type="text"
+            id="Code"
+            placeholder=""
+            value="Refresh For Code!"
+            disabled=""
+          />
         </center>
-        </div>
-        <div class="animation-a">
-          <ul class="boxa">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </body>
-    </html>
+        <center>
+          <a style="cursor: pointer" onclick="CopyText()">Copy</a>
+          <br /><a id="Refresh" style="cursor: pointer" onclick="RefreshBtn()"
+            >Refresh</a
+          >
+          <br /><br /><a onclick="NotWorking()">Not Working?</a>
+        </center>
+      </div>
+      <div class="animation-a">
+        <ul class="boxa">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </body>
+  </html>
+</p>
