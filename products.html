@@ -1,0 +1,218 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>VexySxy</title>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="tabs">
+            <ul>
+                <a href="https://flebbylife.xyz">Home</a>
+                <a href="https://flebbylife.xyz/products">Products</a>
+                <a href="https://flebbylife.xyz/discord">Contact</a>
+            </ul>
+            <h2 style="cursor: default;">Avaliable Products</h2>
+            <div class="option">
+                <div class="optiont">
+                    <h1>VexySxy</h1>
+                    <hr>
+                </div>
+                <ul>
+                <wbr><a class="thing" href="#">Purchase</a>
+            </ul>
+            </div>
+            <div class="option">
+            <div class="optiont">
+                <h1>HWID Whitelist</h1>
+                <hr>
+            </div>
+            <ul>
+            <wbr><a class="thing" href="#">Purchase</a>
+        </ul>
+        </div>
+    </div>
+        </div>
+        <div class="animation-a">
+            <ul class="boxa">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        </div>
+    </body>
+</html>
+
+<style>
+
+.thing {
+    text-align: center;
+    float: center;
+    justify-items: right;
+    position: absolute;
+
+}
+
+.option ul {
+    text-align: center;
+    float: left;
+    position: absolute;
+    padding: 10px 5px;
+}
+
+.option {
+    padding: 50px 5px;
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+
+.optiont {
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.option a {
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    position: absolute;
+    border-radius: 5px;;
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    /*background-color: black;
+    opacity: .50;*/
+    background: linear-gradient(to left, #8942a8, #ba382f);
+}
+
+.bar {
+    position: absolute;
+    overflow: hidden;
+    color: white;
+}
+
+    * {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    font-family:"Baloo 2", cursive;
+}
+
+.tabs {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.tabs ul {
+    height: 50px;
+    float: right;
+}
+
+.tabs ul a {
+    display: inline-block;
+    padding: 40px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.tabs ul li:hover {
+    cursor: pointer;
+}
+
+.tabs h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 75px;
+    margin-top: 17%;
+}
+
+.animation-a {
+    background: black;
+    /* background: linear-gradient(to left, #8942a8, #ba382f); */
+    width: 100%;
+    height: 100vh;
+}
+
+.boxa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.boxa li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(255,255,255, 0.2);
+    animation: animate 20s linear infinite;
+    bottom: -150px;
+   /* background-image: url("https://media.discordapp.net/attachments/797693551043280906/915905988815650836/New_Project_21.png");*/
+}
+
+.boxa li:nth-child(1) {
+    left: 58%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+  .boxa li:nth-child(2) {
+    left: 12%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+  }
+  .boxa li:nth-child(3) {
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 5.5s;
+  }
+  .boxa li:nth-child(4) {
+    left: 42%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 15s;
+  }
+  .boxa li:nth-child(5) {
+    left: 65%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+  }
+  .boxa li:nth-child(6) {
+    left: 15%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3.5s;
+  }
+  @keyframes animate {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-800px) rotate(360deg);
+      opacity: 0;
+    }
+  }
+</style>
